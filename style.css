@@ -55,6 +55,8 @@ h1{
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: all 0.7s;
 }
 
 
@@ -104,4 +106,6 @@ input{
 
 .active.popup-container{
     visibility: hidden;
+    opacity: 0;
+    top: 10%;
 }
